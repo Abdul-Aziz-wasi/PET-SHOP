@@ -32,28 +32,173 @@
 <body class="sora">
     <!-- header section -->
     <header>
-        <nav class="bg-[#FFF9F4] mb-30">
+        <nav class="bg-[#FFF9F4] mb-30 ">
            <div class="max-w-6xl mx-auto flex items-center list-none justify-between">
-            <div class="flex items-center"><img class="p-3" src="images/logo-header.png" alt=""><h5 class="text-xl">Browse<span class="text-yellow-500">4</span>Pets</h5></div>
-            <div class="flex gap-4">
+            <div class="flex items-center"><img class="p-3" src="images/logo-header.png" alt=""><h5 class="text-xl hidden lg:block">Browse<span class="text-yellow-500">4</span>Pets</h5></div>
+            <div class="lg:flex gap-4 hidden">
+
                     <li><a href="">Find a pet</a></li>
                     <li><a href="">Breeds</a></li>
                     <li><a href="">Contact us</a></li>
-                </ul>
+                
             </div>
-            <div class="space-x-4">
+            <div class="space-x-4 hidden lg:block">
                 <i class="fa-regular fa-bell"></i>
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <button class="border border-yellow-300 hover:bg-yellow-200 py-1 px-2 rounded-lg">Login</button>
-                <button class="py-1 px-2 rounded-lg bg-yellow-400 hover:bg-yellow-200">Register</button>
+                <button class="py-1 px-3 rounded-lg bg-yellow-400 hover:bg-yellow-200">Register</button>
             </div>
+            <i class="fa-solid fa-bars lg:hidden block pr-4 text-xl"></i>
+           
+            
            </div>
 
         </nav>
+        <hr class="border-b-1 border-black lg:hidden block">
+        <!-- Hero section -->
+         <section class="">
+          <div class="relative max-w-6xl mx-auto lg:mt-8">
+            <div class="absolute z-50 lg:gap-4 pl-3 pt-8 lg:pt-8">
+                <h1 class="text-lg font-bold lg:text-3xl">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1><br>
+                    <p>Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p><br>
+                    <button class="py-1 px-3 rounded-lg bg-yellow-400 hover:bg-yellow-200">Find a pet</button>
+          </div>
+          <div><img class="pt-48 lg:p-4 z-1" src="images/cat-big.png" alt=""></div> <br>
 
+            </div>
+         </section>
     </header>
-    
-    <main>
+    <!-- main section -->
+    <main class="max-w-6xl mx-auto mt-8">
+        <!-- catagories section -->
+         <h3 class="lg:text-3xl text-lg pl-4 font-bold mb-8">Browse By Categories</h3>
+            <div>
+                
+                 <div class="grid lg:grid-cols-6 grid-cols-2  gap-4 px-4 mb-8">
+                    <div class="bg-[#F7E3CD] p-14 text-center rounded-lg">
+                        <div class="bg-white p-4 rounded-full mb-4"><img   src="images/cat-cartoon.png" alt=""></div>
+                    <h3 class="text-xl font-bold">Dog</h3>
+                    <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F7E3CD] p-14 text-center rounded-lg">
+                        <div class="bg-white p-4 rounded-full mb-4"><img   src="images/bird-cartoon.png" alt=""></div>
+                    <h3 class="text-xl font-bold">Dog</h3>
+                    <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F7E3CD] p-14 text-center rounded-lg">
+                        <div class="bg-white p-4 rounded-full mb-4"><img   src="images/dog-cartoon.png" alt=""></div>
+                    <h3 class="text-xl font-bold">Dog</h3>
+                    <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F7E3CD] p-14 text-center rounded-lg">
+                        <div class="bg-white p-4 rounded-full mb-4"><img   src="images/fish-cartoon.png" alt=""></div>
+                    <h3 class="text-xl font-bold">Dog</h3>
+                    <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F7E3CD] p-14 text-center rounded-lg">
+                        <div class="bg-white p-4 rounded-full mb-4"><img   src="images/mouse-cartoon.png" alt=""></div>
+                    <h3 class="text-xl font-bold">Dog</h3>
+                    <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F7E3CD] p-14 text-center rounded-lg">
+                        <div class="bg-white p-4 rounded-full mb-4"><img   src="images/rabbit-cartoon.png" alt=""></div>
+                    <h3 class="text-xl font-bold">Dog</h3>
+                    <p>3 items</p>
+                    </div>
+                 </div>
+
+            </div>
+            <!-- pet products section -->
+             <div class="ml-2 mr-2">
+                <h3 class="lg:text-3xl text-lg pl-4 font-bold mb-8">Trending Pet Products</h3>
+                <div class="grid lg:grid-cols-5 lg:grid-rows-3 grid-cols-2 flex-wrap">
+                    <div class="relative max-w-6xl mx-auto lg:mt-8 col-span-2 row-span-3 bg-[#F9DF8A] rounded-lg">
+                        <div class="absolute z-50 lg:gap-4 pl-3 pt-8 lg:pt-8 mt-8">
+                            <h1 class="text-lg font-bold lg:text-3xl">T- Shirt For Dogs</h1><br>
+                                <p>Discover a world of treats, toys, and essentials handpicked for </p><br>
+                                <button class="py-1 px-3 rounded-lg bg-yellow-400 hover:bg-yellow-200">Shop Now</button>
+                      </div>
+                      <div class="pt-32 pl-24 "><img class=" lg:p-4 z-1" src="images/cute-pet-mid.png" alt=""></div> <br>
+            
+                        </div>
+                        <div class="flex items-center gap-4 rounded-lg shadow-lg my-8 px-4 border-2 border-slate-100 mr-4">
+                            <div><img class="bg-[#FEF0DB] p-4" src="images/bird-cartoon.png" alt=""></div>
+                            <div>
+                                <p><i class="fa-solid fa-star "></i> 4.5</p>
+                                <p class="text-sm font-bold">Pet Bed</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 rounded-lg shadow-lg my-8 px-4 border-2 border-slate-100 mr-4">
+                            <div ><img class="bg-[#FEF0DB] p-4" src="images/bird-cartoon.png" alt=""></div>
+                            <div>
+                                <p><i class="fa-solid fa-star "></i> 4.5</p>
+                                <p class="text-sm font-bold">Pet Bed</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 rounded-lg shadow-lg my-8 px-4 border-2 border-slate-100 mr-4">
+                            <div ><img class="bg-[#FEF0DB] p-4" src="images/bird-cartoon.png" alt=""></div>
+                            <div>
+                                <p><i class="fa-solid fa-star "></i> 4.5</p>
+                                <p class="text-sm font-bold">Pet Bed</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 rounded-lg shadow-lg my-8 px-4 border-2 border-slate-100 mr-4">
+                            <div ><img class="bg-[#FEF0DB] p-4" src="images/bird-cartoon.png" alt=""></div>
+                            <div>
+                                <p><i class="fa-solid fa-star "></i> 4.5</p>
+                                <p class="text-sm font-bold">Pet Bed</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 rounded-lg shadow-lg my-8 px-4 border-2 border-slate-100 mr-4">
+                            <div ><img class="bg-[#FEF0DB] p-4" src="images/bird-cartoon.png" alt=""></div>
+                            <div>
+                                <p><i class="fa-solid fa-star "></i> 4.5</p>
+                                <p class="text-sm font-bold">Pet Bed</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 rounded-lg shadow-lg my-8 px-4 border-2 border-slate-100 mr-4">
+                            <div ><img class="bg-[#FEF0DB] p-4" src="images/bird-cartoon.png" alt=""></div>
+                            <div>
+                                <p><i class="fa-solid fa-star "></i> 4.5</p>
+                                <p class="text-sm font-bold">Pet Bed</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 rounded-lg shadow-lg my-8 px-4 border-2 border-slate-100 mr-4">
+                            <div ><img class="bg-[#FEF0DB] p-4" src="images/bird-cartoon.png" alt=""></div>
+                            <div>
+                                <p><i class="fa-solid fa-star "></i> 4.5</p>
+                                <p class="text-sm font-bold">Pet Bed</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 rounded-lg shadow-lg my-8 px-4 border-2 border-slate-100 mr-4">
+                            <div ><img class="bg-[#FEF0DB] p-4" src="images/bird-cartoon.png" alt=""></div>
+                            <div>
+                                <p><i class="fa-solid fa-star "></i> 4.5</p>
+                                <p class="text-sm font-bold">Pet Bed</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                        <div class="hidden lg:flex items-center gap-4 rounded-lg shadow-lg my-8 px-4 border-2 border-slate-100 mr-4">
+                            <div ><img class="bg-[#FEF0DB] p-4" src="images/bird-cartoon.png" alt=""></div>
+                            <div>
+                                <p><i class="fa-solid fa-star "></i> 4.5</p>
+                                <p class="text-sm font-bold">Pet Bed</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                </div>
+               
+
+             </div>
+
+        
 
     </main>
 
